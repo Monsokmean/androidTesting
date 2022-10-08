@@ -1,6 +1,7 @@
 package com.example.lap1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,Home.class);
         Intent wifi_animation_form = new Intent(MainActivity.this,Home_with_navigation.class);
         //startActivity(wifi_animation_form);
+        //---------Recycle view------------
+        Intent intent_recyclerview = new Intent(MainActivity.this,MyRecyclerViewDemo.class);
+        startActivity(intent_recyclerview);
 
         //To Show or Hide password
         checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
