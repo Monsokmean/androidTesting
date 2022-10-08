@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_baseline_brightness_5_24"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/ic_baseline_brightness_4_24"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/ic_baseline_brightness_6_24"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/ic_baseline_brightness_7_24"
+        android:duration="500"/>
+
+
+
+
+</animation-list>
